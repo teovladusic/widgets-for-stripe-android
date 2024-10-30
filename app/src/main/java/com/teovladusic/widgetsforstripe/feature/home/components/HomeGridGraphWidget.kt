@@ -47,7 +47,7 @@ fun HomeGridGraphWidget(
                     Box(
                         modifier = Modifier
                             .size(24.dp)
-                            .background(color = revenue.second, shape = RoundedCornerShape(4.dp))
+                            .background(color = revenue.color, shape = RoundedCornerShape(4.dp))
                     )
                 }
             }

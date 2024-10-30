@@ -12,6 +12,7 @@ plugins {
 
 android {
     namespace = "com.teovladusic.widgetsforstripe"
+
     compileSdk = 34
 
     defaultConfig {
@@ -22,6 +23,7 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        signingConfig = signingConfigs.getByName("debug")
     }
 
     flavorDimensions.addAll(listOf("environment"))
@@ -49,7 +51,8 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
+            isShrinkResources = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
@@ -134,9 +137,6 @@ dependencies {
 
     // native review
     implementation(libs.play.review)
-
-    // Billing
-    implementation(libs.billing.ktx)
 
     // widget
     implementation(libs.bundles.glance)

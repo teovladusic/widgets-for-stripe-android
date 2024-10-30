@@ -63,7 +63,7 @@ fun StripeProjectWithCharges.getRevenueForLast30Days(): Long {
     return charges.filter { it.created.isAfter(dateTime30DaysAgo) }.sumOf { it.amount }
 }
 
-fun StripeProjectWithCharges.getChargesAmount112DaysAgoList(): List<Pair<Long, Color>> {
+fun StripeProjectWithCharges.getChargesAmount112DaysAgoList(): List<LongWithColor> {
     val colorLevels = listOf(
         Color(0xFF0E0F1C),
         Color(0xFF3A3C6B),
@@ -94,11 +94,11 @@ fun StripeProjectWithCharges.getChargesAmount112DaysAgoList(): List<Pair<Long, C
     }
 
     return list.map {
-        it to getColorForRevenue(it)
+        LongWithColor(long = it, color = getColorForRevenue(it))
     }
 }
 
-fun StripeProjectWithCharges.getChargesAmount49DaysAgoList(): List<Pair<Long, Color>> {
+fun StripeProjectWithCharges.getChargesAmount49DaysAgoList(): List<LongWithColor> {
     val colorLevels = listOf(
         Color(0xFF0E0F1C),
         Color(0xFF3A3C6B),
@@ -128,7 +128,7 @@ fun StripeProjectWithCharges.getChargesAmount49DaysAgoList(): List<Pair<Long, Co
     }
 
     return list.map {
-        it to getColorForRevenue(it)
+        LongWithColor(long = it, color = getColorForRevenue(it))
     }
 }
 

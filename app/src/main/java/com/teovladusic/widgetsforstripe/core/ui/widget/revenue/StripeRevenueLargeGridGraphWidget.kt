@@ -70,7 +70,7 @@ class StripeRevenueLargeGridGraphWidget : GlanceAppWidget() {
 
                             Image(
                                 provider = ImageProvider(R.drawable.shape_grid_graph_box),
-                                colorFilter = ColorFilter.tint(ColorProvider(revenue.second)),
+                                colorFilter = ColorFilter.tint(ColorProvider(revenue.color)),
                                 contentDescription = null,
                                 modifier = GlanceModifier.padding(2.dp).size(20.dp)
                             )
@@ -84,7 +84,7 @@ class StripeRevenueLargeGridGraphWidget : GlanceAppWidget() {
 
                             Image(
                                 provider = ImageProvider(R.drawable.shape_grid_graph_box),
-                                colorFilter = ColorFilter.tint(ColorProvider(revenue.second)),
+                                colorFilter = ColorFilter.tint(ColorProvider(revenue.color)),
                                 contentDescription = null,
                                 modifier = GlanceModifier.padding(2.dp).size(20.dp)
                             )

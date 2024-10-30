@@ -56,8 +56,8 @@ import com.teovladusic.widgetsforstripe.core.util.extension.findActivity
 @Destination
 @Composable
 fun PaywallScreen(viewModel: PaywallViewModel = hiltViewModel()) {
-    val productDetailsList by viewModel.productDetailsList.collectAsStateWithLifecycle()
-    Content(products = productDetailsList, executeAction = viewModel::executeAction)
+//    val productDetailsList by viewModel.productDetailsList.collectAsStateWithLifecycle()
+//    Content(products = productDetailsList, executeAction = viewModel::executeAction)
 }
 
 @Composable
