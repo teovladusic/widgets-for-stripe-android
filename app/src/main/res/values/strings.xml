@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Widgets for Stripe</string>
+    <string name="unknown_error">Unkown error</string>
+    <string name="start">Start</string>
+    <string name="revenue_widget">Revenue Widget</string>
+    <string name="grid_graph_widget">Grid Graph Widget</string>
+    <string name="chart_widgets">Chart Widgets</string>
+    <string name="mrr_widgets">MRR widgets</string>
+    <string name="revenue_widget_desc">Track the revenue of all your projects in different time frames.</string>
+    <string name="grid_graph_widget_desc">Do you love filling hour GitHub graph?\\nYou will love even more filling this one!</string>
+    <string name="chart_widgets_desc">Is anything more fun then seein your revenue in a chart?</string>
+    <string name="mrr_widgets_desc">Track your MRR in the nicest way possible.</string>
+    <string name="continue_label">Continue</string>
+    <string name="lets_go">Let\'s go!</string>
+    <string name="skip">Skip</string>
+    <string name="add_stripe_project">Add Stripe Project</string>
+    <string name="generate_api_key">Generate a restricted API key</string>
+    <string name="generate_key">Generate Key</string>
+    <string name="do_not_change_permission">Do not change any resource permissions and click [Create Key] at the bottom right of the Stripe page.</string>
+    <string name="copy_paste_api_key_here">Copy and paste the restricted API key here</string>
+    <string name="api_key_placeholder">rk_live_**********</string>
+    <string name="api_key_explanation">The API key is for read-only purposes and it\'s only stored on your local device.</string>
+    <string name="project_name_placeholder">My awesome project</string>
+    <string name="project_name">Project name</string>
+    <string name="save_project">Save Project</string>
+    <string name="help_us_grow">Help Us Grow</string>
+    <string name="leave_review_desc">Show your love by giving us a review on the Play Store</string>
+    <string name="widgets_for_stripe">Widgets For Stripe</string>
+    <string name="last_30_days">Last 30 days</string>
+    <string name="revenue">Revenue</string>
+    <string name="premium">Premium</string>
+    <string name="unlock_premium_features">Unlock Premium Features</string>
+    <string name="stripe_projects">Stripe Projects</string>
+    <string name="no_project">No Project</string>
+    <string name="info">Info</string>
+    <string name="suggest_new_features">Suggest New Features</string>
+    <string name="rate_app">Rate App</string>
+    <string name="support">Support</string>
+
+    <string name="paywall_bullet_1_title">Unlock All Widget Types</string>
+    <string name="paywall_bullet_1_desc">Revenue Widgets, Grid Graphs, Charts and MRR</string>
+
+    <string name="paywall_bullet_2_title">Add unlimited Stripe projects</string>
+    <string name="paywall_bullet_2_desc">Connect all your projects and showcase your revenue sources on your home screen.</string>
+
+    <string name="paywall_bullet_4_title">Support a Solo Developer</string>
+    <string name="paywall_bullet_4_desc">This app was entirely created by 👨‍💻 one person. Your support will directly contribute to my ongoing work and efforts.</string>
+    <string name="lifetime">Lifetime</string>
+    <string name="annual">Annual</string>
+    <string name="monthly">Monthly</string>
+    <string name="try_for_free">Try for Free</string>
+    <string name="grid_graph">Grid graph</string>
+    <string name="stripe_revenue_widget_desc">30 days Revenue widget</string>
+    <string name="stripe_7_days_graph_desc">7 Days Graph Widget</string>
+    <string name="large_grid_widget_desc">Large Grid Widget</string>
+    <string name="monthly_repeat_revenue_widget_desc">Monthly Repeating Revenue Widget</string>
+    <string name="small_grid_widget_desc">Small Grid Widget</string>
+    <string name="charts">Charts</string>
+    <string name="mrr">MRR</string>
+    <string name="unlock">Unlock</string>
+</resources>

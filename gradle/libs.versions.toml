@@ -1,0 +1,93 @@
+[versions]
+agp = "8.7.1"
+billingKtx = "7.1.1"
+kotlin = "2.0.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+lifecycleRuntimeKtx = "2.8.6"
+activityCompose = "1.9.3"
+composeBom = "2024.10.00"
+firebase-bom = "33.4.0"
+dagger-hilt = "2.51"
+dagger-hilt-navigation-compose = "1.2.0"
+core-splashscreen = "1.0.1"
+retrofit = "2.9.0"
+retrofit-okhttp = "4.12.0"
+retrofit-converter = "1.0.0"
+destinations = "1.10.2"
+coil-compose = "2.5.0"
+converter-gson = "2.9.0"
+reviewVersion = "2.0.1"
+timber = "5.0.1"
+ksp = "2.0.0-1.0.21"
+google-services = "4.4.2"
+material = "1.12.0"
+androidx-material = "1.7.4"
+material-icons-extended-android = "1.7.4"
+datastore-preferences = "1.1.1"
+glance = "1.1.1"
+androidx-work-runtime-ktx = "2.9.1"
+hilt-work = "1.2.0"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+billing-ktx = { module = "com.android.billingclient:billing-ktx", version.ref = "billingKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+androidx-material = { module = "androidx.compose.material:material", version.ref = "androidx-material" }
+androidx-material-icons-extended-android = { module = "androidx.compose.material:material-icons-extended-android", version.ref = "material-icons-extended-android" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebase-bom" }
+firebase-messaging = { module = "com.google.firebase:firebase-messaging-ktx" }
+firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics-ktx" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics-ktx" }
+dagger-hilt = { group = "com.google.dagger", name = "hilt-android", version.ref = "dagger-hilt" }
+dagger-hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "dagger-hilt" }
+dagger-hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "dagger-hilt-navigation-compose" }
+androidx-lifecycle-runtime-compose = { module = "androidx.lifecycle:lifecycle-runtime-compose", version.ref = "lifecycleRuntimeKtx" }
+androidx-core-splashscreen = { module = "androidx.core:core-splashscreen", version.ref = "core-splashscreen" }
+play-review = { module = "com.google.android.play:review-ktx", version.ref = "reviewVersion" }
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+retrofit-converter = { group = "com.jakewharton.retrofit", name = "retrofit2-kotlinx-serialization-converter", version.ref = "retrofit-converter" }
+retrofit-okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "retrofit-okhttp" }
+retrofit-okhttp-logging = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "retrofit-okhttp" }
+destinations-animations-core = { module = "io.github.raamcosta.compose-destinations:animations-core", version.ref = "destinations" }
+compose-destinations = { module = "io.github.raamcosta.compose-destinations:ksp", version.ref = "destinations" }
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coil-compose" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converter-gson" }
+timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
+google-services = { module = "com.google.gms:google-services", version.ref = "google-services" }
+androidx-datastore-preferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastore-preferences" }
+androidx-glance = { module = "androidx.glance:glance", version.ref = "glance" }
+androidx-glance-appwidget = { module = "androidx.glance:glance-appwidget", version.ref = "glance" }
+work-runtime-ktx = { module = "androidx.work:work-runtime-ktx", version.ref = "androidx-work-runtime-ktx" }
+androidx-hilt-work = { module = "androidx.hilt:hilt-work", version.ref = "hilt-work" }
+androidx-hilt-compiler = { module = "androidx.hilt:hilt-compiler", version.ref = "hilt-work" }
+
+
+[plugins]
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+hilt = { id = "com.google.dagger.hilt.android", version.ref = "dagger-hilt" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+com-android-library = { id = "com.android.library", version.ref = "agp" }
+
+[bundles]
+firebase = ["firebase-messaging", "firebase-crashlytics", "firebase-analytics"]
+retrofit = ["retrofit", "retrofit-okhttp", "retrofit-okhttp-logging", "retrofit-converter"]
+dagger-hilt = ["dagger-hilt", "dagger-hilt-navigation-compose"]
+glance = ["androidx-glance", "androidx-glance-appwidget"]

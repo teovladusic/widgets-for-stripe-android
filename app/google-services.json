@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "10649086824",
+    "project_id": "widgets-for-stripe",
+    "storage_bucket": "widgets-for-stripe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10649086824:android:126fb435a09819feacc4dd",
+        "android_client_info": {
+          "package_name": "com.teovladusic.widgetsforstripe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiu9mVPxI-C6HbKETFVs4BRBvISug5Q2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
